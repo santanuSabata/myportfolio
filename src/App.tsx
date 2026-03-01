@@ -300,12 +300,12 @@ function App() {
             {[
               {
                 icon: "💼",
-                link: "https://www.linkedin.com/in/tejas-mehar/",
+                link: "https://www.linkedin.com/in/santanu-sabata-1977383b2/",
                 label: "LinkedIn",
               },
               {
                 icon: "📧",
-                link: "mailto:abcd@gmail.com",
+                link: "mailto:sabatasantanu@gmail.com",
                 label: "Email",
               },
               // {
