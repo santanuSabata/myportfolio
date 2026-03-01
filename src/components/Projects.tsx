@@ -6,37 +6,34 @@ const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [visibleCount, setVisibleCount] = useState(3);
 
-  const filters = ["All", "Full Stack", "Static", "Portfolios"];
+  const filters = ["All", "WordPress","Full Stack", "Static", "Portfolios"];
 
   const dummyProjects = [
     {
-      title: "FitTrack — Fitness Tracking App",
-      category: "Full Stack",
-      desc: "Fitness tracking web application allowing users to monitor workouts, track calories, set goals, and visualize progress through analytics dashboards.",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+      title: "Garage Door Installations & Repair Services in Florida ",
+      category: "WordPress",
+      desc: "Delivering Excellence In Every Garage Door Repair Task With years of experience, Go Pro Garage Door Service provides unmatched quality and reliability. ",
+      image:"/images/projects/goprogaragedoorservice.png",
       github: "#",
-      live: "#",
+      live: "https://goprogaragedoorservice.com/",
     },
 
     {
-      title: "FoodieHub Restaurant Website",
-      category: "Static",
-      desc: "Modern restaurant website featuring menu showcase, online reservation system, customer reviews, and responsive mobile-first design.",
-      image:
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+      title: "Music From Anotehr Planet",
+      category: "WordPress",
+      desc: "Ivan's Musical Compositions and Guitar Playing are Recognised Worldwide. Played daily to an audience of hundreds of millions in USA, Europe and Asia. His library contains a huge body of work covering all genres.",
+      image: "/images/projects/bertolla.png",
       github: "#",
-      live: "#",
+      live: "https://bertolla.com/",
     },
 
     {
-      title: "TaskFlow Project Management Tool",
-      category: "Full Stack",
-      desc: "Collaborative project management platform with task assignment, deadlines, progress tracking, team roles, and productivity analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      title: "Bilge Nur Saltik's",
+      category: "WordPress",
+      desc: "Bilge Nur Saltik's intent is to incorporate culture with contemporary design. Pairing the old with the new, she works with traditional craftsmen–tapping into their age-old techniques and knowledge–and introduces them to new materials and fabrication processes.",
+      image:"/images/projects/bilgenursaltik.png",
       github: "#",
-      live: "#",
+      live: "https://www.bilgenursaltik.com/",
     },
 
     {
