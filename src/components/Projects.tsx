@@ -38,12 +38,11 @@ const Projects: React.FC = () => {
 
     {
       title: "EduLearn Online Course Platform",
-      category: "Full Stack",
-      desc: "Online learning platform with course enrollment, video lessons, quizzes, progress tracking, and student dashboard.",
-      image:
-        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
+      category: "WordPress",
+      desc: "Quist Watches is an online retailer and brand that offers a collection of wristwatches designed with a focus on timeless design, craftsmanship, and simplicity, often blending elements of traditional watchmaking with modern aesthetic sensibilities.",
+      image:"/images/projects/quistwatches.png",
       github: "#",
-      live: "#",
+      live: "https://quistwatches.com/",
     },
 
     {
