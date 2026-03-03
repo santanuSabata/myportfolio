@@ -6,9 +6,65 @@ const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [visibleCount, setVisibleCount] = useState(3);
 
-  const filters = ["All", "WordPress","Full Stack", "Static", "Portfolios"];
+  const filters = ["All", "WordPress","WooCommerce","Full Stack", "Static", "Portfolios"];
 
-  const dummyProjects = [
+  const dummyProjects = [ 
+    {
+      title: "My Souce",
+      category: "WooCommerce",
+      desc: "Distributor of  Gluten free, quality chilli sauces, Suitable for Vegans. We supply our products direct to retail across London. We are also interested in developing a new range of functional products.",
+      image:"/images/projects/mysauce.png",
+      github: "#",
+      live: "https://mysauce.co.uk/",
+    },
+    {
+      title: "Momento Box",
+      category: "WooCommerce",
+      desc: "Where artistry meets functionality, and every item tells a story. Since our establishment in 2012, we have been passionately committed to creating unique, high-quality products that cater to a wide range of needs.",
+      image:"/images/projects/momentobox.png",
+      github: "#",
+      live: "https://momentobox.co/",
+    },
+    {
+      title: "Cocopandy",
+      category: "WooCommerce",
+      desc: "Cocopandy was started in 2021 by a family with children. When the family's first child started attending preschool.",
+      image:"/images/projects/cocopandy-com.png",
+      github: "#",
+      live: "https://cocopandy.com/",
+    },
+    {
+      title: "B Dialdas",
+      category: "WooCommerce",
+      desc: "From modest beginnings to a worldwide trading network, we’ve grown by putting people first. As a Hong Kong-based import-export firm, we specialize in sourcing and distributing quality products—from industrial chemicals and wax to bakery goods,",
+      image:"/images/projects/bdialdas-com.png",
+      github: "#",
+      live: "https://bdialdas.com/",
+    },
+    {
+      title: "Harley-Davidson strongholds.",
+      category: "WooCommerce",
+      desc: "Since 1985, we’ve been one of Melbourne’s original Harley-Davidson strongholds. No fluff, no gimmicks just decades of experience and a passion for HD.",
+      image:"/images/projects/hddev.png",
+      github: "#",
+      live: "https://hddev.com.au/",
+    },
+    {
+      title: "Poke Hub",
+      category: "WooCommerce",
+      desc: "Welcome to Poke Hub, a curated destination for authentic Pokémon trading cards.",
+      image:"/images/projects/pokehub-in.jpg",
+      github: "#",
+      live: "https://pokehub.in/",
+    },
+    {
+      title: "Galli family oral tradition Watch ",
+      category: "WooCommerce",
+      desc: "Galli family oral tradition has it that the “Galli” came from Italy.",
+      image:"/images/projects/galli-ch.png",
+      github: "#",
+      live: "https://galli.ch/",
+    },
     {
       title: "Garage Door Installations & Repair Services in Florida ",
       category: "WordPress",
