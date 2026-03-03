@@ -9,6 +9,7 @@ const Projects: React.FC = () => {
   const filters = ["All", "WordPress","WooCommerce","Full Stack", "Static", "Portfolios"];
 
   const dummyProjects = [ 
+      
     {
       title: "My Souce",
       category: "WooCommerce",
@@ -139,6 +140,14 @@ const Projects: React.FC = () => {
         "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
       github: "#",
       live: "#",
+    },
+    {
+      title: "Azafashions",
+      category: "Full Stack",
+      desc: "Aza, which means 'desire' in Sanskrit, was founded in 2005 by Dr Alka Nishar. Her vision was to create a friendly, welcoming space showcasing the best luxury Indian fashion for women and men.",
+      image:"/images/projects/azafashion.png",
+      github: "#",
+      live: "https://www.azafashions.com/",
     },
   ];
 

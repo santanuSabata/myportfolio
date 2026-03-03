@@ -225,17 +225,14 @@ const Hero: React.FC = () => {
           <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-90 md:h-90 rounded-full p4 sm:h-64 md:w-90 md:h-90 rounded-full p-1 bg-gradient-to-r from-blue-500 via-purple-500 to-emerald-500 shadow-2xl">
             {/* Glass Layer */}
             <div
-              className="
-      w-full h-full rounded-full overflow-hidden
-      backdrop-blur-xl
-      bg-white/80 dark:bg-white/5
-      border border-gray-200 dark:border-white/20
-      shadow-lg dark:shadow-none
-    "
-            >
+              className="w-full h-full rounded-full overflow-hidden
+                backdrop-blur-xl
+                bg-white/80 dark:bg-white/5
+                border border-gray-200 dark:border-white/20
+                shadow-lg dark:shadow-none" >
               <img
                 src={founder}
-                alt="Santanu Sabata"
+                alt="Santanu Sabata111"
                 className="w-full h-full object-cover object-center"
               />
             </div>
