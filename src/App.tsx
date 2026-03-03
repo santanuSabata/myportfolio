@@ -288,7 +288,7 @@ function App() {
 
               <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                 <li>📧 sabatasantanu@gmail.com</li>
-                <li>📞 +91 0000000000</li>
+                 
                 <li>📍 Gurugram, Haryana</li>
               </ul>
             </div>
