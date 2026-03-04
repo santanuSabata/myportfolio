@@ -272,6 +272,8 @@ function App() {
               </h4>
 
               <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                <li>Wordpress Development</li>
+                <li>Shopify Development</li>
                 <li>Web Development</li>
                 <li>MERN Applications</li>
                 <li>SEO Optimization</li>
@@ -288,7 +290,6 @@ function App() {
 
               <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                 <li>📧 sabatasantanu@gmail.com</li>
-                 
                 <li>📍 Gurugram, Haryana</li>
               </ul>
             </div>
@@ -307,6 +308,16 @@ function App() {
                 icon: "📧",
                 link: "mailto:sabatasantanu@gmail.com",
                 label: "Email",
+              },
+              {
+                icon: "🐙",
+                link: "https://github.com/santanuSabata",
+                label: "GitHub",
+              },
+              {
+                icon: "X",
+                link: "https://x.com/SabataSanttanu",
+                label: "GitHub",
               },
               // {
               //   icon: "📞",

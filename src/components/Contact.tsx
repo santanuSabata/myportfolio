@@ -9,7 +9,9 @@ import {
   AlertCircle,
   Linkedin,
   Github,
+  X,
 } from "lucide-react";
+import { EmailJSResponseStatus } from "@emailjs/browser";
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -78,6 +80,12 @@ const Contact: React.FC = () => {
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/santanu-sabata-1977383b2/",
     },
+    {
+      icon: X,
+      title: "X",
+      href: "https://x.com/SabataSanttanu",
+    },
+     
   ];
 
   return (

@@ -11,6 +11,14 @@ const Projects: React.FC = () => {
   const dummyProjects = [ 
       
     {
+      title: "My Protfolio",
+      category: "Static",
+      desc: "Fullstack Developer with 9 years of experience building scalable web applications using PHP, Node.js, React, and WordPress. building 150+ real-world projects, scalable web applications, and modern business solutions.",
+      image:"/images/projects/santanusabata.png",
+      github: "#",
+      live: "https://santanusabata.netlify.app/",
+    },
+    {
       title: "My Souce",
       category: "WooCommerce",
       desc: "Distributor of  Gluten free, quality chilli sauces, Suitable for Vegans. We supply our products direct to retail across London. We are also interested in developing a new range of functional products.",
@@ -101,6 +109,26 @@ const Projects: React.FC = () => {
       github: "#",
       live: "https://quistwatches.com/",
     },
+      {
+      title: "TravelReconnect Tourism Website",
+      category: "Static",
+      desc: "At TravelReconnect, we are passionate about creating meaningful travel experiences that connect people to the world around them.",
+      image:
+        "/images/projects/travelreconnect.png",
+      github: "#",
+      live: "https://travelreconnect.in/",
+    },
+
+    {
+      title: "ParcelX",
+      category: "Static",
+      desc: "ParcelX offers AI-based smoother, easier and reliable platform to manage your end to end shipping needs for your business.",
+      image:
+        "/images/projects/Parcelx.png",
+      github: "#",
+      live: "https://parcelx.in/",
+    },
+
 
     {
       title: "TravelX Tourism Website",
@@ -111,7 +139,7 @@ const Projects: React.FC = () => {
       github: "#",
       live: "#",
     },
-
+  
     {
       title: "FinanceTracker Dashboard",
       category: "Full Stack",

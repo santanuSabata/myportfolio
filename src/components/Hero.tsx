@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Download, X } from "lucide-react";
 
 import resumePdf from "../assets/SantanuSabata.pdf";
 import founder from "../assets/SatnanuSabata-linkedin-profile-image.png";
@@ -184,6 +184,10 @@ const Hero: React.FC = () => {
                 url: "https://www.linkedin.com/in/santanu-sabata-1977383b2/",
               },
               {
+                icon: X,
+                url: "https://x.com/SabataSanttanu/",
+              },
+              {
                 icon: Mail,
                 url: "mailto:sabatasantanu@gmail.com",
               },
@@ -218,8 +222,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative flex justify-center"
-        >
+          className="relative flex justify-center">
           {/* Glass Card */}
 
           <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-90 md:h-90 rounded-full p4 sm:h-64 md:w-90 md:h-90 rounded-full p-1 bg-gradient-to-r from-blue-500 via-purple-500 to-emerald-500 shadow-2xl">
@@ -232,7 +235,7 @@ const Hero: React.FC = () => {
                 shadow-lg dark:shadow-none" >
               <img
                 src={founder}
-                alt="Santanu Sabata111"
+                alt="Santanu Sabata"
                 className="w-full h-full object-cover object-center"
               />
             </div>
