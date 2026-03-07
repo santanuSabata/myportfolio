@@ -75,6 +75,14 @@ const Projects: React.FC = () => {
       live: "https://galli.ch/",
     },
     {
+      title: "Cohance",
+      category: "WordPress",
+      desc: "Cohance Lifesciences is not just a brand—it’s a culmination of vision, scientific ambition, and purposeful integration. Our story began with a series of intentional moves, starting with the acquisition of RA Chem Pharma.",
+      image:"/images/projects/cohance.png",
+      github: "#",
+      live: "https://www.cohance.com/",
+    },
+    {
       title: "Akums",
       category: "WordPress",
       desc: "Largest Pharmaceutical CDMO delivering Innovation, Quality, and excellence across Diverse Formulations.",
