@@ -75,6 +75,15 @@ const Projects: React.FC = () => {
       live: "https://galli.ch/",
     },
     {
+      title: "Akums",
+      category: "WordPress",
+      desc: "Largest Pharmaceutical CDMO delivering Innovation, Quality, and excellence across Diverse Formulations.",
+      image:"/images/projects/Akums.png",
+      github: "#",
+      live: "https://akums.in/",
+    },
+
+    {
       title: "Garage Door Installations & Repair Services in Florida ",
       category: "WordPress",
       desc: "Delivering Excellence In Every Garage Door Repair Task With years of experience, Go Pro Garage Door Service provides unmatched quality and reliability. ",
