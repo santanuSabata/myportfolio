@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, X } from "lucide-react";
 
-import resumePdf from "../assets/SantanuSabata.pdf";
+import resumePdf from "../assets/SantanuSabataPM.pdf";
 import founder from "../assets/SatnanuSabata-linkedin-profile-image.png";
 
 const Hero: React.FC = () => {
@@ -10,6 +10,7 @@ const Hero: React.FC = () => {
 
   const texts = useMemo(
     () => [
+      "IT Project Manager Web & App",
       "Full Stack WordPress Developer",
       "Full Stack Web Developer",
       "Professional Web Developer",
@@ -55,7 +56,7 @@ const Hero: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumePdf;
-    link.download = "SantanuSabata.pdf";
+    link.download = "SantanuSabataPM.pdf";
     link.click();
   };
 
@@ -122,12 +123,14 @@ const Hero: React.FC = () => {
           {/* About */}
 
           <p className="text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-            Fullstack Developer with 9 years of experience building scalable 
-            web applications using PHP, Node.js, React, and WordPress.
-            building 150+ real-world projects, scalable web
-            applications, and modern business solutions.
+            With over 20+ years of experience in the IT industry, including 6+ years as a Project Manager, I bring a strong combination of technical expertise, leadership, and strategic project execution.
           </p>
-
+          <p className="text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
+            Proven track record of delivering scalable applications across multiple industries including eCommerce, Real Estate, Education, ERP, and On-Demand platforms. Experienced in collaborating with Business Analysts to prepare BRD, FRD, SRS documentation and wireframes while ensuring alignment between business objectives and technical delivery.
+          </p>
+          <p className="text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
+            Skilled in managing international client projects, recommending appropriate technology stacks, and delivering projects on time, within scope, and within budget.
+          </p>
           {/* Buttons */}
 
           <div className="flex flex-wrap gap-4">
@@ -181,7 +184,7 @@ const Hero: React.FC = () => {
               },
               {
                 icon: Linkedin,
-                url: "https://www.linkedin.com/in/santanu-sabata-1977383b2/",
+                url: "https://www.linkedin.com/in/santanusabata/",
               },
               {
                 icon: X,

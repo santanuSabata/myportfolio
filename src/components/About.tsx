@@ -1,16 +1,46 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Code2, Heart, Coffee, Zap, Award, Users } from "lucide-react";
+import { Code2, Heart, Coffee, Zap, Award, Users, Webhook, Frame, Smartphone, Database, Kanban, GitBranchIcon } from "lucide-react";
 
 const About: React.FC = () => {
   const stats = [
-    { number: "9+", label: "Years Experience", icon: Zap },
-    { number: "150+", label: "Projects", icon: Code2 },
+    { number: "20+", label: "Years Experience", icon: Zap },
+    { number: "500+", label: "Projects", icon: Code2 },
     { number: "100%", label: "Satisfaction", icon: Heart },
     { number: "∞", label: "Coffee", icon: Coffee },
   ];
 
   const highlights = [
+    {
+      icon: Kanban,
+      title: "Project Management Tools",
+      description: "Jira, Trello, Asana, ClickUp",
+    },
+    {
+      icon: GitBranchIcon,
+      title: "Collaboration & Version Control Tools",
+      description: "Slack, Zoom,Git, GitHub",
+    },
+    {
+      icon: Webhook,
+      title: "Web Technologies",
+      description: "WordPress, PHP, JavaScript, HTML5, CSS3",
+    },     
+    {
+      icon: Frame,
+      title: "Frameworks & Platforms",
+      description: "Laravel, CodeIgniter, Express.js, React.js, Node.js",
+    },
+    {
+      icon: Smartphone,
+      title: "Mobile App Technologies ",
+      description: "Flutter, React Native, Native Android, Native iOS",
+    },
+    {
+      icon: Database,
+      title: "Database ",
+      description: "MySQL, MongoDB",
+    },
     {
       icon: Award,
       title: "Technical Excellence",
@@ -83,15 +113,17 @@ const About: React.FC = () => {
           </h2>
 
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg">
-            Hi! I’m Santanu Sabata, a Fullstack Developer with 9 years of experience crafting web applications that are scalable, secure, and user-friendly. I love turning complex problems into simple, elegant solutions using PHP, Node.js, React.js, and WordPress.
+            Hi! I’m Santanu Sabata, an experienced IT Project Manager with over a decade of experience leading web and mobile application development projects in service-based IT environments. My expertise lies in managing the full software development lifecycle (SDLC), coordinating cross-functional teams, and ensuring successful delivery of high-quality digital products.
           </p>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg">
-            Over the years, I’ve had the chance to lead teams, mentor junior developers, and work on projects ranging from custom plugins and themes to API integrations and eCommerce platforms. What excites me most is building solutions that make a real impact for businesses and users alike.
+            I have a strong background in Agile and Scrum methodologies, where I manage sprint planning, backlog prioritization, stakeholder communication, and project execution. I work closely with developers, designers, QA engineers, and Business Analysts to translate business requirements into scalable technical solutions.
           </p>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg"> 
-            When I’m not coding, I enjoy learning new technologies, exploring innovative tools, and sharing knowledge with my peers. I thrive in collaborative environments where creativity, curiosity, and continuous learning drive results.
+            Earlier in my career, I worked as a Senior Web Developer specializing in WordPress, PHP, JavaScript, and eCommerce solutions, which gives me a strong technical foundation when managing development teams.
           </p>
-
+          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg"> 
+            I am passionate about delivering projects that align with business goals, improving team productivity, and building solutions that create real value for clients and users.
+          </p>
           <div className="w-32 h-1 mx-auto bg-gradient-to-r from-blue-500 to-purple-500 rounded-full" />
         </motion.div>
 
@@ -113,19 +145,13 @@ const About: React.FC = () => {
             </h3>
 
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              Fullstack Developer with 9 years of experience building scalable web applications using PHP, Node.js, React, and WordPress.
-              Skilled in API integrations, custom plugin/theme development, and performance optimization.
-              Passionate about delivering secure, high-quality solutions and mentoring development teams.
+             With over 20+ years of experience in the IT industry, including 6+ years as a Project Manager, I bring a strong combination of technical expertise, leadership, and strategic project execution.
             </p>
-
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              I design high-performance applications that solve real-world
-              business problems and deliver measurable impact.
+              Throughout my career, I have successfully managed and delivered IT projects, web applications, and digital solutions, ensuring projects are completed on time, within scope, and aligned with business objectives. My experience spans project planning, team leadership, stakeholder communication, and risk management, enabling teams to work efficiently and deliver high-quality results.
             </p>
-
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              With 150+ real-world projects, I continuously push boundaries in
-              modern web engineering.
+             I have worked closely with cross-functional teams including developers, designers, QA engineers, and business stakeholders, ensuring smooth collaboration and project success. My approach focuses on Agile methodologies, clear communication, and continuous improvement to drive productivity and innovation.
             </p>
 
             <motion.button
@@ -327,7 +353,7 @@ const About: React.FC = () => {
           </h3>
 
           <p className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            "Clean code, innovative solutions, and measurable results—that’s my approach to every project.”
+            "I believe that successful projects are built on three key pillars: clear communication, strong collaboration, and disciplined execution. Technology alone does not deliver value—people, processes, and shared goals do.”
           </p>
         </motion.div>
 

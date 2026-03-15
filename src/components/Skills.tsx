@@ -1,9 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Code2, Database, Server, Cpu, Globe } from "lucide-react";
+import { Code2, Database, Server, Cpu, Globe, ProjectorIcon } from "lucide-react";
 
 const Skills: React.FC = () => {
   const skillCategories = [
+    {
+      title: "Manage Projec",
+      icon: ProjectorIcon,
+      color: "from-green-500 to-cyan-500",
+      skills: [
+        { name: "Agile / Scrum Project Management", level: 95 },
+        { name: "Software Development Life Cycle (SDLC)", level: 75 },
+        { name: "Requirement Gathering (BRD, FRD, SRS, Wireframes)", level: 95 },
+        { name: "Sprint Planning, Backlog Grooming & Retrospectives", level: 90 },
+        { name: "Stakeholder & Client Communication", level: 85 },
+        { name: "Cross-Functional Team Leadership", level: 88 },
+      ],
+    },
     {
       title: "Frontend Development",
       icon: Code2,
@@ -219,6 +232,11 @@ const Skills: React.FC = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5">
             {[
+              {
+                name: "Jira",
+                icon: "https://icon.icepanel.io/Technology/svg/Jira.svg",
+              },
+               
               {
                 name: "Git",
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",

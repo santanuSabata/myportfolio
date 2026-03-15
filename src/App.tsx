@@ -301,7 +301,7 @@ function App() {
             {[
               {
                 icon: "💼",
-                link: "https://www.linkedin.com/in/santanu-sabata-1977383b2/",
+                link: "https://www.linkedin.com/in/santanusabata/",
                 label: "LinkedIn",
               },
               {

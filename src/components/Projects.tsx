@@ -75,6 +75,14 @@ const Projects: React.FC = () => {
       live: "https://galli.ch/",
     },
     {
+      title: "Erin Sneazwell",
+      category: "WordPress",
+      desc: "Erin offers more than a decade of experience in the real estate industry having helped clients buy and sell hundreds of homes in that time.",
+      image:"/images/projects/thesneazwells.png",
+      github: "#",
+      live: "https://thesneazwells.com/",
+    },
+    {
       title: "Cohance",
       category: "WordPress",
       desc: "Cohance Lifesciences is not just a brand—it’s a culmination of vision, scientific ambition, and purposeful integration. Our story began with a series of intentional moves, starting with the acquisition of RA Chem Pharma.",
