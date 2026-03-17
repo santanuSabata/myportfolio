@@ -238,7 +238,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                img: "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1170&auto=format&fit=crop",
+                img: "/images/development-work-space.png",
                 title: "Development Workspace",
                 desc: "Focused coding and problem solving",
               },
